@@ -7,11 +7,11 @@
 #cantidad a dos decimales.
 
 i = float(4 / 100)
-a = int(input('introduce tus ahorros'))
+a = float(input('introduce tus ahorros'))
 
 
 cantidad_ahorros1 = (i * a)
 cantidad_ahorros2 = (i * a) + (cantidad_ahorros1)
 cantidad_ahorros3 = (i * a) + (cantidad_ahorros2)
 
-print('la cantidad de ahorro obtenido el primer año es ',cantidad_ahorros1,'el segundo año es',cantidad_ahorros2,'y el tercer año es',cantidad_ahorros3)
+print('la cantidad de ahorro obtenido el primer año es: {:.2f} '.format(cantidad_ahorros1),'el segundo año es: {:.2f} '.format(cantidad_ahorros2),'y el tercer año es: {:.2f} '.format(cantidad_ahorros3))
