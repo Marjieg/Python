@@ -7,4 +7,4 @@
 nombre = input('¿cuál es tu nombre completo?')
 print (nombre.lower())
 print (nombre.upper())
-print (nombre.title())
+print (nombre.title()) #primera letra del nombre y de los apellidos en mayúscula
