@@ -11,9 +11,6 @@ print('Año', fecha[6:])
 #Adaptar el programa anterior para que también funcione cuando el día o el mes se introduzcan con un
 #solo carácter.
 
-fecha = input('Introduzca su fecha de nacimiento')
-
-
 fecha = input('Introduzca su fecha de nacimiento dd/mm/aaaa')
 dia = fecha[:fecha.find('/')]
 mesaño = fecha[fecha.find('/')+1:]
