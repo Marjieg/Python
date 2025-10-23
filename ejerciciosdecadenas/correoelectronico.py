@@ -4,4 +4,11 @@
 
 correo = input('¿cuál es tu correo electrónico?')
 
-print(correo[:correo.find('@')] + '@ceu.es')
+#print(correo[:correo.find('@')] + '@ceu.es') --> esto sería otra forma de hacerlo
+#split utiliza cadenas de caracteres los trata 
+#como arrays separados por el caracter que le asigne
+
+x = correo.split("@")
+nombre = x[0]
+
+print (nombre+"@ceu.es")
