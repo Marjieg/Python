@@ -4,8 +4,8 @@
 #contraseña introducida por el usuario coincide con la guardada en la variable sin
 #tener en cuenta mayúsculas y minúsculas.
 
-contraseña = input("introduzca la contraseña").lower()
-contraseña2 = ('marina')
+contraseña = input('introduzca la contraseña').lower()
+contraseña2 = ('contraseña')
 
 if contraseña == contraseña2:
     print("contraseña correcta")
