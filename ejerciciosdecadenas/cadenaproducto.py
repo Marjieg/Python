@@ -11,8 +11,8 @@ unidades = float(input('Introduce el número de unidades: '))
 precio_total = float(precio * unidades)
 
 
-print(f"el nombre del producto es: {producto}, el precio es: {precio:2f}, el numero de unidades son :{unidades:3f}, en total: {precio_total:2f} euros")
+print(f"el nombre del producto es: {producto}, el precio es: {precio:09.2f}, el numero de unidades son :{unidades:03.0f}, en total: {precio_total:010.2f} euros")
 
 
 
-
+#cuenta el punto del numero, hay que poner uno de más para que de la cantidad que pide
