@@ -4,7 +4,7 @@
 
 numero1 = float(input('escribe un número'))
 numero2 = float(input('escribe otro número'))
-division = numero1 / numero1
+division = numero1 / numero2
 resto = numero1 % numero2
 
 if numero2 == 0:
