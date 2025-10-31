@@ -6,16 +6,13 @@
 #que le corresponde.
 
 nombre = str(input('dime tu nombre'))
-#tengo que clasificar la primera letra del nombre!tiene que haber una función para esto
-nombre_primeraletra = [nombre]
-print(nombre_primeraletra)
 sexo = input('dime tu sexo')
 #A = mujeres con nombres de A hasta M y hombres con nombres de N en adelante
 #B = resto
 ini_nombres = nombre.split()
-if (sexo == "mujer" and nombre == ini_nombres()):
+if (sexo == "mujer" and nombre < "M"):
     print("perteneces al grupo A")
-elif(sexo == "hombre" and nombre != ini_nombres):
+elif(sexo == "hombre" and nombre >= "N"):
     print("perteneces al grupo A")
 else:
      print("perteneces al grupo B")
