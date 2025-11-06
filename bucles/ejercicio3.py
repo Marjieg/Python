@@ -3,6 +3,12 @@ Escribir un programa que pida al usuario un número entero positivo y muestre po
 pantalla todos los números impares desde 1 hasta ese número separados por
 comas."""
 
-n = int(input("introduce un número entero positivo"))
+num = int(input("introduce un número entero positivo"))
+ 
 
-for n in range(1,n,1):
+for i in range(1, num+1):
+    if i % 2 != 0: #si el resto de dividir i entre 2 es distinto de 0, es un número primo
+        print(i) # por lo tanto, imprime i
+
+
+
