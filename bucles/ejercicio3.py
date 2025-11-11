@@ -8,7 +8,7 @@ num = int(input("introduce un número entero positivo"))
 
 for i in range(1, num+1):
     if i % 2 != 0: #si el resto de dividir i entre 2 es distinto de 0, es un número primo
-        print(i) # por lo tanto, imprime i
+        print(i, end=", ") # por lo tanto, imprime i
 
 
 
