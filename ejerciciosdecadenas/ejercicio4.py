@@ -10,3 +10,4 @@ telefono=(input ('introduzca su número de teléfono con el siguiente formato +X
 
 
 print ('El número de teléfono sin el prefijo ni la extensión es ',telefono[4:-3])
+print(f'loqiersdasdf{telefono[4:-3]}')
