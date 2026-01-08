@@ -10,10 +10,9 @@ bachiller = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
 notas = []
 for asignatura in bachiller:
     nota= int((input(f"¿qué nota has sacado en {asignatura}?")))
-    notas.append(nota)   #con append inserto las notas que se van introduciendo en la lista notas
     #eliminar las asignaturas aprobadas de la lista osea > 5
     if nota < 5:
-       notas.append(asignatura) #modifico la lista notas con las asignaturas que están suspensas
+       notas.append(asignatura) #creo la lista notas con las asignaturas que están suspensas
 print("tienes que repetir estas asiganturas: ")
-for asignatura in bachiller:
+for asignatura in notas:
     print(asignatura)
