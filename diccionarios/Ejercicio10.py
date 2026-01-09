@@ -54,4 +54,4 @@ while opciones != '6':
                  print(clave, valor['nombre'])
     else:
         print ('saliendo de la base de datos')
-    opciones = input('Escoja una de las siguientes opciones: (1) Añadir cliente, (2) Eliminar cliente, (3) Mostrar cliente, (4)Listar todos los clientes, (5) Listar clientes preferentes, (6) Terminar')
+    opciones = input('Escoja una de las siguientes opciones: \n(1) Añadir cliente\n(2) Eliminar cliente\n(3) Mostrar cliente\n(4) Listar todos los clientes\n(5) Listar clientes preferentes\n(6) Terminar')
