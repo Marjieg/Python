@@ -12,16 +12,16 @@ cantidad pendiente de cobro"""
 facturas = {}
 pendiente = 0
 cobrado= 0
-nueva = ''
-while nueva != 'terminar':
-    nueva = input('qué desea hacer añadir una nueva factura, pagar una existente o terminar')
-    if nueva == 'nueva factura':
+accion = ''
+while accion != 'terminar':
+    accion = input('qué desea hacer añadir una nueva factura, pagar una existente o terminar')
+    if accion == 'nueva factura':
         clave = input('introduzca el número de factura')
         valor = float(input('introduzca el coste'))
         facturas[clave]= valor
         pendiente += valor
 
-    if nueva == 'pagar':
+    if accion == 'pagar':
         clave = input('introduzca el número de factura')
         valor = facturas.pop(clave, 0)
         cobrado += valor
