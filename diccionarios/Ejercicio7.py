@@ -19,7 +19,7 @@ while continuar:
     continuar = input('¿quieres añadir más informacion (si/no)?') =="si"
 total= 0
 print ('Lista de la compra')
-for item, valor in cesta.items():
+for item, valor in cesta.items(): #el método items() devuelve una lista con los keys y values del diccionario
     print (f'{item}  {valor}')
     total += valor
 print (f'coste total {total}')
