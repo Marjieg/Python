@@ -23,3 +23,23 @@ decir, un diccionario como el siguiente
 'juanjo@mail.com', 'teléfono': '664888233', 'descuento': 5.2},
 '98376547F': {'nombre': 'Carmen Sánchez', 'email':
 'carmen@mail.com', 'teléfono': '667677855', 'descuento': 15.7}}"""
+
+empleados = {}
+datos = "nif;nombre;email;teléfono;descuento\n01234567L;Luis González;luisgonzalez@mail.com;656343576;12.5\n71476342J;Macarena Ramírez;macarena@mail.com;692839321;8\n63823376M;Juan José Martínez;juanjo@mail.com;664888233;5.2\n98376547F;Carmen Sánchez;carmen@mail.com;667677855;15.7"
+items = datos.split('\n')
+cabecera = items[0]
+print (cabecera)
+
+valores = items[1:]
+print(valores)
+
+
+
+#{dni{datos,datos,datos}}
+dni = {}
+persona = valores[1]
+dni[valores[0]]=persona
+print(dni)
+
+
+
