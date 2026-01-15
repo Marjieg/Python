@@ -30,16 +30,17 @@ items = datos.split('\n')
 cabecera = items[0]
 print (cabecera)
 
+dni ={}
 valores = items[1:]
-print(valores)
+d = valores.split(';')
+dni= [d[1]] 
 
-
-
-#{dni{datos,datos,datos}}
-dni = {}
-persona = valores[1]
-dni[valores[0]]=persona
 print(dni)
+
+#empleados[dni]=
+print(empleados)
+#{dni{datos,datos,datos}}
+
 
 
 
