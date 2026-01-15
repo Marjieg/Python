@@ -10,7 +10,16 @@ también el número total de créditos del curso.
 
 asignaturas =  {'Matemáticas': 6, 'Física': 4, 'Química': 5}
 totalcreditos = 0
-for asignatura, creditos in asignaturas.items():
-    print(f' la asignatura {asignatura} tiene {creditos} créditos')
+for asignatura,creditos in asignaturas.items():  #necesito las keys=asignatura, y los values=creditos de asignaturas
+    """ Imprime los key y value del diccionario
+for x, y in d1.items():
+    print(x, y)"""
+    print(f'la asignatura {asignatura} tiene {creditos} créditos')
     totalcreditos += creditos
 print(f'el total de créditos del curso son {totalcreditos}')
+
+#probando funciones de diccionario
+print (asignaturas.keys())
+print (asignaturas.items())
+print (asignaturas.values())
+
