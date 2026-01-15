@@ -9,17 +9,17 @@ Artículo 2 Precio
 Artículo 3 Precio
 … …
 Total Coste"""
-
 cesta = {}
 continuar = True
+total = 0
 while continuar:
-    producto = input('¿qué producto quieres comprar?')
-    valor = float(input(f'introduce el precio de {producto} ": "'))
-    cesta[producto] = valor
-    continuar = input('¿quieres añadir más informacion (si/no)?') =="si"
-total= 0
-print ('Lista de la compra')
-for item, valor in cesta.items(): #el método items() devuelve una lista con los keys y values del diccionario
-    print (f'{item}  {valor}')
-    total += valor
-print (f'coste total {total}')
+    producto = input('¿qué producto desea añadir a la lista?: ')
+    precio = input(f'introduce el precio de {producto :} : ')
+    cesta[producto]= precio
+    precio = int(precio)
+    total += precio
+    print('Lista de la compra')
+    for producto,precio in cesta.items():
+       print(f'{producto} {precio}')
+    print(f'el total de la compra es {total}')
+    continuar = input('¿desea continuar? si/no : ') == 'si'
