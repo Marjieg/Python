@@ -3,7 +3,7 @@ Escribir un programa que cree un diccionario vacío y lo vaya llenado con
 información sobre una persona (por ejemplo nombre, edad, sexo, teléfono, correo
 electrónico, etc.) que se le pida al usuario. Cada vez que se añada un nuevo dato
 debe imprimirse el contenido del diccionario."""
-
+#con el .update() voy actualizando el diccionario, introduciéndole los datos nuevos que pongo entre ()
 d1= {}
 nombre = input('¿cual es tu nombre?')
 d1['nombre']= nombre
@@ -30,7 +30,7 @@ print(d1)
 
 d1= {}
 continuar = True
-while continuar:
+while continuar: #así creo el diccionario-- diccionario = clave: valor, clave: valor..
     clave = input('¿qué dato quieres introducir?')
     valor = input(clave + ': ')
     d1[clave] = valor
