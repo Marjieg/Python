@@ -10,7 +10,7 @@ Artículo 3 Precio
 … …
 Total Coste"""
 cesta = {}
-continuar = True
+continuar = "si"
 total = 0
 while continuar:
     producto = input('¿qué producto desea añadir a la lista?: ')

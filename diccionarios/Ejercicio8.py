@@ -7,7 +7,7 @@ en español y utilizará el diccionario para traducirla palabra a palabra. Si un
 no está en el diccionario debe dejarla sin traducir"""
 
 dic ={}
-continuar = True
+continuar = "si"
 while continuar:
     palabra = input('introduce una palabra en español')
     word = input(f'introduce la traducción en inglés de {palabra} :')
