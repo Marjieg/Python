@@ -23,7 +23,7 @@ while accion != 'terminar':
 
     if accion == 'pagar':
         clave = input('introduzca el número de factura : ')
-        valor = facturas.pop(clave, 0)
+        valor = facturas.pop(clave, 0)  #le digo que elimine la factura que he introducido en clave
         cobrado += valor
         pendiente -= valor
     print('pagado:', cobrado)
