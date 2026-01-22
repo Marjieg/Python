@@ -32,8 +32,9 @@ print (cabecera)
 
 dni ={}
 valores = items[1:]
-d = valores.split(';')
-dni= [d[1]] 
+print(valores)
+d = valores.split
+dni= [valores[1]] 
 
 print(dni)
 
