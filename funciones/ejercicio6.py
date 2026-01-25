@@ -4,7 +4,7 @@ media."""
 def media(lista):
     n = int(len(lista))
     sum = 0
-    for i in lista:
+    for i in lista: #esto se puede hacer con sum
         sum += i
     m = sum /n
     return m
